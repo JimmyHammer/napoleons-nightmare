@@ -3,9 +3,14 @@ theme: just-the-docs
 url: http://www.napoleonsnightmare.com
 color_scheme: dark
 aux_links:
-  GitHub Repo: https://github.com/JimmyHammer/napoleons-nightmare
+  Discord: https://discord.gg/qaV6KJkeHm
   itch.io: https://jaime-gonzalez-vallejo.itch.io/napoleons-nightmare
-
+  GitHub: https://github.com/JimmyHammer/napoleons-nightmare
+aux_links_new_tab: true
+logo: "/assets/images/logo.png"
+favicon_ico: "/assets/images/favicon.ico"
+search:
+  button: true
 
 # Footer content
 back_to_top: true
