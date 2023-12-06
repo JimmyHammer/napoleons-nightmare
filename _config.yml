@@ -12,8 +12,18 @@ favicon_ico: "/assets/images/favicon.ico"
 search:
   button: true
 
+description: "Table top rpg pen and paper Napoleon's Nightmare by Jaime Gonzalez Vallejo"
+keywords: "Napoleon, ttrpg, rpg, pen&paper"
+
+
 # Footer content
 back_to_top: true
 back_to_top_text: "Back to top"
 footer_content: "The text on this page is licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC-BY-SA 4.0.</a>"
 last_edit_timestamp: true 
+
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: G-C1E3ZXLB0H
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
