@@ -1,5 +1,7 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+/* Global Styles */
 body, .search-input, .side-bar, .site-button, .main-header {
   background-color: #232231;
 }
@@ -12,6 +14,53 @@ a {
   color: #eabe43;
 }
 
+th, td {
+    background-color: #383747;
+}
+
+th, td {
+  min-width: initial;
+  padding-top: .35rem;
+  padding-bottom: .35rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+td {
+  border-bottom: 0;
+  border-left: 0;
+}
+
+tbody tr:last-of-type td{
+  padding-bottom: .35rem;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+font-size: 1rem;
+}
+
+/* Site Title Styles */
 .site-title {
   padding: 0rem;
+}
+
+/* Navigation Styles */
+.nav-list .nav-list-item .nav-list-link.active {
+  background-image: linear-gradient(-90deg, #233331, #233331);
+}
+
+.nav-list .nav-list-item .nav-list-expander {
+  color: #eabe43;
+}
+
+/* Main Content Styles */
+.main-content .anchor-heading svg,
+.icon,
+.search-input:focus + .search-label .search-icon {
+  color: #eabe43;
+}
+
+/* Remove Background Image on Hover */
+.nav-list-link:hover {
+  background-image: none;
 }
